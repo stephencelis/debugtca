@@ -12,7 +12,8 @@ import ComposableArchitecture
 
 // Enable this and it will work!!!
 
-//  public subscript<Value>(ifLet2 keyPath: WritableKeyPath<Wrapped, Value>) -> Value? {
+//extension Optional {
+//  public subscript<Value>(ifLet keyPath: WritableKeyPath<Wrapped, Value>) -> Value? {
 //    get {
 //        self.map { $0[keyPath: keyPath] }
 //    }
